@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+@keyframes dong {
+    0% {
+        top: 15px;
+    }
+
+    50% {
+        top: 138px;
+    }
+
+    100% {
+        top: 15px;
+    }
+
+}

@@ -1,0 +1,231 @@
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    height: 86px;
+    background: url(../img/menu-top.jpg)
+}
+
+.header .header-logo {
+    float: left;
+    width: 96px;
+    height: 96px;
+    margin-top: 16px;
+    background: url(../img/2.png)
+}
+
+.header .header-left-character {
+    float: left;
+    margin: 20px 13px;
+}
+
+.header .header-left-character-one {
+    font-size: 26px;
+    margin: 8px 0px 2px 0px;
+    color: #E4E4E4;
+}
+
+.header .header-left-character-two {
+    color: #929292;
+}
+
+.header .header-center-character {
+    margin-left: 310px
+}
+
+.header .header-center-character a {
+    display: block;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    padding: 33px 15px;
+}
+
+.header .header-center-character li {
+    float: left;
+}
+
+.header .header-center-character a:hover {
+    color: #e24b4e;
+}
+
+.header-right-character {
+    float: left;
+    margin-left: 89px;
+    margin-top: 20px;
+}
+
+.header-right-character img {
+    width: 50px;
+    height: 40px;
+}
+
+/* 头部部分结束 */
+
+/* 中间第一部分 */
+.center-1 {
+    height: 872px;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.center-1 .download-top {
+    width: 451px;
+    height: 175px;
+    background-image: url(../img/bg-ewm.png);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 695px;
+    z-index: 2;
+}
+
+.center-1 .download-one {
+    position: absolute;
+    width: 141px;
+    height: 18px;
+    left: 18px;
+    top: 15px;
+    animation: dong 6s infinite linear reverse;
+}
+
+.center-1 .download-two {
+    width: 265px;
+    padding-left: 170px;
+    padding-top: 20px;
+}
+
+.center-1 .download-three {
+    width: 265px;
+    padding-left: 170px;
+    padding-top: 20px;
+}
+
+.download-center {
+    width: 1920px;
+    left: 50%;
+    top: 573px;
+    margin-left: -960px;
+    z-index: 1;
+    position: absolute;
+}
+
+.download-center img {
+    position: absolute;
+}
+
+.download-center .download-bottom-img1 {
+    width: 284px;
+    left: -1px;
+    top: 150px;
+}
+
+.download-center .download-bottom-img2 {
+    width: 357px;
+    left: 164px;
+    top: 200px;
+}
+
+.download-center .download-bottom-img3 {
+    width: 373px;
+    left: 800px;
+    top: 122px;
+    z-index: 1;
+}
+
+.download-center .download-bottom-img4 {
+    width: 357px;
+    right: 578px;
+    top: 185px;
+}
+
+.download-center .download-bottom-img5 {
+    width: 434px;
+    right: 0px;
+    top: 80px;
+}
+
+.download-bottom {
+    height: 299px;
+    position: relative;
+    z-index: 2;
+    background-image: url(../img/bg0.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    top: 580px;
+    z-index: 1;
+}
+
+/* 中间第一部分结束 */
+
+/* 中间第二部分开始 */
+.center-2 {
+    height: 664px;
+    position: relative;
+    top: 7px;
+    z-index: 1;
+    background-image: url(../img/bg1.jpg);
+    background-position: top center;
+}
+
+.journalism {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.press-release {
+    width: 720px;
+    height: 123px;
+    margin: 0 auto;
+    position: relative;
+    top: -63px;
+    background-image: url(../img/title.png);
+}
+
+.journalism-left {
+    position: absolute;
+    top: 90px;
+    width: 236px;
+    height: 304px;
+    background-image: url(../img/bg-down-frame.png)
+}
+
+.journalism-left img {
+    width: 160px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 38px;
+}
+
+.journalism-left .bells {
+    width: 52px;
+    position: absolute;
+    left: 180px;
+    top: -5px;
+    z-index: 1;
+}
+
+.journalism-left .a1 {
+    width: 171px;
+    height: 90px;
+    background: url(../img/sp.png) -431px -134px;
+    position: absolute;
+    top: 199px;
+    left: 36px;
+}
+
+.journalism-bottom {
+    width: 741px;
+    height: 200px;
+    background: url(../img/bg-news.png);
+    margin-top: 290px;
+}
+
+.hd-img {
+    background: url(../img/sp.png)
+}
