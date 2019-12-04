@@ -186,6 +186,11 @@ body {
     background-image: url(../img/title.png);
 }
 
+.journalism-left-center {
+    width: 1249px;
+    height: 378px;
+}
+
 .journalism-left {
     position: absolute;
     top: 90px;
@@ -219,13 +224,140 @@ body {
     left: 36px;
 }
 
+.journalism-right {
+    width: 947px;
+    height: 383px;
+}
+
+.journalism-right .right-01 {
+    width: 753px;
+    height: 303px;
+    position: absolute;
+    left: 245px;
+    top: 92px;
+}
+
+.journalism-slideshow {
+    width: 753px;
+    height: 303px;
+}
+
 .journalism-bottom {
+    float: left;
     width: 741px;
     height: 200px;
     background: url(../img/bg-news.png);
-    margin-top: 290px;
+    position: absolute;
+    top: 421px;
+
+}
+
+.journalism-bottom .hd-01,
+.journalism-bottom .hd-02,
+.journalism-bottom .hd-03,
+.journalism-bottom .hd-04 {
+    width: 130px;
+    height: 47px;
+}
+
+.journalism-bottom .hd-01 a {
+    background-position: -248px -438px;
+}
+
+.journalism-bottom .hd-02 a {
+    background-position: 339px 1213px;
+}
+
+.journalism-bottom .hd-03 a {
+    background-position: 226px 1213px;
+}
+
+.journalism-bottom .hd-04 a {
+    background-position: 113px 1213px;
+    width: 113px;
+}
+
+.journalism-bottom li a {
+    display: block;
+    height: 100%;
 }
 
 .hd-img {
-    background: url(../img/sp.png)
+    background: url(../img/sp.png);
 }
+
+.journalism-bottom .hd-05 {
+    display: block;
+    width: 253px;
+    height: 200px;
+    position: absolute;
+    right: -270px;
+    top: 1px;
+    background-position: -1px 1286px;
+}
+
+/* 中间第二部分结束 */
+
+/* 中间第三部分开始 */
+.center-3 {
+    height: 926px;
+    background-image: url(../img/bg2.jpg)
+}
+
+.fuck {
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.center-3 .Ninja-standing {
+    background-position: 0px 659px;
+}
+
+.Ninja-standing {
+    width: 720px;
+    height: 123px;
+    margin: 0 auto;
+    background: url(../img/title.png)
+}
+
+.scroll {
+    margin-top: -70px;
+    margin-left: -28px;
+    position: absolute;
+    z-index: 99;
+}
+
+.ninja-center {
+    position: relative;
+    top: -28px;
+    right: -51px;
+    width: 1518px;
+    height: 590px;
+    background: url(../img/scroll-mid.jpg) no-repeat right center;
+}
+
+.ninja-center .ninja-center-top {
+    width: 652px;
+    height: 78px;
+    background-position: 0px -1004px;
+    margin: 70px 0px 0px 180px;
+    position: relative;
+    top: 68px;
+}
+
+.ninja-center-bottom {
+    width: 652px;
+    height: 300px;
+    margin: 20px 0px 0px 180px;
+    position: relative;
+    top: 71px;
+}
+
+.right-img {
+    position: absolute;
+    right: 100px;
+    top: -119px;
+}
+/* 第三部分结束 */
+
+/* 第四步分开始 */
