@@ -358,6 +358,256 @@ body {
     right: 100px;
     top: -119px;
 }
+
 /* 第三部分结束 */
 
 /* 第四步分开始 */
+.center-4 {
+    height: 559px;
+    background: url(../img/bg3.jpg)
+}
+
+.center-4 .center-4-con {
+    width: 1000px;
+    height: 580px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.center-4-con-title {
+    width: 720px;
+    height: 123px;
+    margin: 0 auto;
+    background: url(../img/title.png) no-repeat 0px 0px;
+}
+
+.center-4-con .center-4-con-title {
+    background-position: 0px -323px;
+}
+
+.center-4-tab {
+    margin-top: 40px;
+    height: 417px;
+}
+
+.center-4-tab .center-4-hd {
+    height: 87px;
+    background: url(../img/bg-game-center.png) no-repeat top center;
+    text-align: center;
+    position: relative;
+}
+
+.center-4-tab .center-4-hd li {
+    height: 70px;
+    line-height: 70px;
+    width: 150px;
+    margin: 17px 20px 0px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.center-4-tab .center-4-hd li a {
+    color: #fff;
+}
+
+.center-4-bd {
+    position: relative;
+    height: 330px;
+}
+
+.center-4-tab1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.season-hd {
+    position: relative;
+    height: 65px;
+}
+
+.season-hd .season-arrows-img {
+    left: -10px;
+    background-position: -337px -636px;
+
+}
+
+.her {
+    background: url(../img/sp.png)
+}
+
+.season-hd .season-arrows {
+    width: 60px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 20px;
+}
+
+.season-hd .season-list {
+    width: 850px;
+    height: 100%;
+    margin-left: 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+.season-list li {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    width: 108px;
+    text-align: center;
+    line-height: 65px;
+    position: relative;
+}
+
+.season-list .one {
+    position: relative;
+    left: 758px;
+    top: -64px;
+}
+
+.season-hd .season-next-img {
+    right: -12px;
+    background-position: 459px -636px;
+}
+
+.wrestle-bd {
+    position: relative;
+    height: 330px;
+}
+
+.wrestle-tb {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.wrestle-left {
+    float: left;
+    width: 248px;
+    height: 232px;
+    overflow: hidden;
+}
+
+.wrestle-left img {
+    display: block;
+    width: 240px;
+    min-height: 225px;
+    margin: 3px auto;
+}
+
+
+.wrestle-left a {
+    display: block;
+    height: 100%;
+    background: url(../img/bg-game-border.png) no-repeat top center;
+    overflow: hidden;
+}
+
+.wrestle-news {
+    float: left;
+    width: 366px;
+    margin-left: 34px;
+}
+
+.wrestle-news .wrestle-news-top {
+    height: 71px;
+    border: 1px solid #000;
+    padding: 0px 14px;
+    margin-bottom: 8px;
+}
+
+.wrestle-news-top h3 {
+    overflow: hidden;
+    height: 32px;
+}
+
+.wrestle-news-top h3 a {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    line-height: 32px;
+    display: block;
+}
+
+.wrestle-news-top h3 span {
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.wrestle-news-top p {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.wrestle-news-top p strong {
+    font-weight: normal;
+    color: red;
+    padding-left: 3px;
+}
+
+.strong01 {
+    position: relative;
+    left: 35px;
+    top: -15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.wrestle-news ul {
+    height: 150px;
+    overflow: hidden;
+}
+
+.wrestle-news-img {
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/sp.png) no-repeat -687px -226px;
+    margin: 12px 0px 0px 0px;
+}
+
+.wrestle-news .wrestle-news-img {
+    margin-top: 9px;
+    background-position: -687px -787px;
+}
+
+.wrestle-news li span {
+    float: left;
+}
+
+.wrestle-news li p {
+    float: left;
+}
+
+.wrestle-news-time {
+    float: right;
+}
+
+.wrestle-news ul p {
+    display: block;
+    width: 313px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 16px;
+    padding-top: 7px;
+}
+
+.wrestle-news li em {
+    font-size: 16px;
+    position: absolute;
+    font-weight: normal;
+    top: 88px;
+}
