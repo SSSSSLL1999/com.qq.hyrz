@@ -459,7 +459,56 @@ body {
     background: url(../img/sp.png);
 }
 
+.journalism-bottom-bd {
+    width: 593px;
+    height: 177px;
+    position: absolute;
+    top: 13px;
+    left: 138px;
+}
 
+.journalism-bottom-bd li span {
+    float: left;
+}
+
+.journalism-bottom-bd .bd-icon {
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/sp.png) no-repeat -687px -226px;
+    margin: 12px 0 0 0;
+}
+
+.journalism-bottom-bd .bd-time {
+    float: right;
+    font-size: 15px;
+    color: #b69e7a;
+    position: relative;
+    top: -26px;
+    right: 16px;
+    font-weight: normal;
+}
+
+.journalism-bottom-bd li {
+    line-height: 35px;
+    height: 35px;
+    padding: 0 15px;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.journalism-bottom-bd li a {
+    display: block;
+    height: 100%;
+}
+
+.journalism-bottom-bd li p {
+    color: #fff;
+}
+
+.journalism-bottom-bd p:hover {
+    color: #d4926f;
+}
 
 .journalism-bottom .hd-05 {
     display: block;
@@ -520,13 +569,77 @@ body {
     top: 68px;
 }
 
-.ninja-center-bottom {
+.ninja-center-top .ninja-choose {
+    height: 100%;
+}
+
+.ninja-list {
+    width: 652px;
+    margin: 20px 0 0 180px;
+    position: relative;
+    top: 65px;
+    height: 300px;
+}
+
+.ninja-list ul {
+    height: 100%;
+    overflow: hidden;
+    margin-left: -40px;
+}
+
+.ninja-list li {
+    float: left;
+    position: relative;
+    margin: 40px 0 0 50px;
+    width: 108px;
+    height: 106px;
+    background: url(../img/bg-ninja.png) no-repeat 0 0;
+}
+
+.ninja-list li a {
+    display: block;
+    height: 100%;
+}
+
+.ninja-list li img {
+    min-height: 100%;
+    width: 100%;
+}
+
+.ninja-list .img-box {
+    width: 78px;
+    height: 78px;
+    overflow: hidden;
+    margin: 14px auto;
+}
+
+/* .ninja-list .img-box02 {
+    width: 78px;
+    height: 78px;
+    overflow: hidden;
+    margin: 14px auto;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+} */
+
+.ninja-list .ninja-label {
+    width: 46px;
+    height: 52px;
+    display: block;
+    background-position: -467px -542px;
+    position: absolute;
+    right: -18px;
+    top: -40px;
+}
+
+/* .ninja-center-bottom {
     width: 652px;
     height: 300px;
     margin: 20px 0px 0px 180px;
     position: relative;
     top: 71px;
-}
+} */
 
 .right-image {
     position: absolute;

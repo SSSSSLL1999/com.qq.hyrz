@@ -5,39 +5,6 @@ $('a').click(function () {
     }, 500);
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //变速动画函数
 function animate(element, json, fn) {
     clearInterval(element.timeId); //清理定时器
