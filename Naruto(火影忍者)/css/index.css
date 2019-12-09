@@ -1,4 +1,6 @@
 body {
+    position: relative;
+    right: 0px;
     overflow-x: hidden;
 }
 
@@ -1350,7 +1352,7 @@ body {
     color: #6F6F6F
 }
 
-/* 顶部部分结束 */
+/* 底部部分结束 */
 
 .broadside-nav {
     width: 180px;
@@ -1418,6 +1420,8 @@ a.her.b {
 }
 
 @keyframes fenling {
+
+    /* 位置旋转 */
     0% {
         transform: rotate(7deg);
     }
