@@ -4,6 +4,7 @@ body {
     overflow-x: hidden;
 }
 
+/* 头部部分开始 */
 .header {
     height: 86px;
     background: url(../img/menu-top.jpg)
