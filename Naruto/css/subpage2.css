@@ -1,0 +1,116 @@
+.top {
+    width: 100%;
+    height: 147px;
+    background: url(../img/botbg.png);
+    border-bottom: 1px #e2482c solid;
+    position: relative;
+}
+
+.top .wrap {
+    width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    width: 290px;
+    height: 103px;
+    background: url(../img/common.png) no-repeat;
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+
+.nav {
+    width: 700px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    top: 30px
+}
+
+.nav li {
+    width: 75px;
+    height: 80px;
+    float: left;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.nav span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 20px;
+    background: url(../img/common.png) 0 -785px;
+}
+
+a {
+    color: #fff;
+}
+
+.nav .n2 span {
+    background-position: -44px -784px;
+}
+
+.nav .n3 span {
+    background-position: -89px -784px;
+}
+
+.nav .n4 span {
+    background-position: -134px -784px;
+}
+
+.nav .n5 span {
+    background-position: -220px -784px;
+}
+
+.content {
+    width: 100%;
+    height: 295px;
+    background: url(../img/con_top.jpg) center top no-repeat;
+}
+
+.content-top {
+    width: 1000px;
+    height: 330px;
+    margin: auto;
+    position: relative;
+}
+
+.sub-nav {
+    width: 290px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 17px;
+}
+
+.sub-nav li {
+    float: left;
+    width: 115px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.sub-nav .li-two {
+    position: absolute;
+    right: 0;
+}
+
+.sub-nav .sub2 span {
+    background-position: -333px -785px;
+}
+
+.sub-nav span {
+    float: left;
+    width: 28px;
+    height: 28px;
+    background: url(../img/common.png) no-repeat -299px -785px;
+    margin-right: 10px;
+}
+
+.sub-nav .sn1 span {
+    background-position: -299px -785px;
+}
