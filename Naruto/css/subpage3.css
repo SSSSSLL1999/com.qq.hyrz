@@ -144,7 +144,7 @@
 .content-top .tit-news {
     width: 248px;
     height: 62px;
-    background-position: -3px -1px;
+    background-position: -3px -72px;
 }
 
 .content-top h1 {
@@ -188,6 +188,25 @@
     font-size: 24px;
     line-height: 71px;
     text-align: center;
+}
+
+.guide {
+    padding-top: 30px;
+    width: 1000px;
+    height: 250px;
+    margin: auto;
+}
+
+.guide img {
+    width: 310px;
+    height: 230px;
+    float: left;
+    margin-right: 35px;
+}
+
+.guide .a1 {
+    position: absolute;
+    left: 949px;
 }
 
 .list {
@@ -279,7 +298,7 @@
     width: 100%;
     background: url(../img/botbg.png);
     position: absolute;
-    bottom: -2120px;
+    bottom: -2435px;
 }
 
 .bottom-wrap {

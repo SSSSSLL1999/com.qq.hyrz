@@ -1489,30 +1489,35 @@ a.her.b {
     width: 500px;
     height: 200px;
     padding: 7px;
-    border: 1px solid #ccc;
-    margin: 100px auto;
+    /* border: 1px solid #ccc;
+    margin: 100px auto; */
     position: relative;
 }
 
 .screen {
-    width: 500px;
-    height: 200px;
+    width: 753px;
+    height: 303px;
     overflow: hidden;
     position: relative;
+    top: -40px;
+    left: 239px;
 }
 
 .screen li {
-    width: 500px;
-    height: 200px;
-    overflow: hidden;
-    float: left;
+    width: 753px;
+    height: 303px;
 }
 
-.screen ul {
+/* .screen ul {
     position: absolute;
     left: 0;
     top: 0px;
     width: 3000px;
+} */
+
+.screen img {
+    width: 753px;
+    height: 303px;
 }
 
 .all ol {

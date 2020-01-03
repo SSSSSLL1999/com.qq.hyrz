@@ -154,95 +154,35 @@
     background: url(../img/con_tit.png)no-repeat;
 }
 
-.news-nav {
-    width: 996px;
-    height: 73px;
-    position: absolute;
-    left: 1px;
-    bottom: 0;
-    border: 1px solid #000;
-}
-
-.news-nav .on {
-    color: #000;
-    background: url(../img/botbg2.png)
-}
-
-.news-nav li {
-    width: 247px;
-}
-
-.news-nav a {
-    color: #fff;
-}
-
-.news-nav .on a {
-    color: #000;
-}
-
-.news-nav li {
-    height: 71px;
-    float: left;
-    background: url(../img/botbg.png);
-    border: 1px solid #000;
-    font-size: 24px;
-    line-height: 71px;
-    text-align: center;
-}
-
-.list {
+.news {
     width: 1000px;
     margin: 0 auto;
 }
 
-.list li {
-    height: 80px;
-    line-height: 80px;
-    border-bottom: 1px dotted #484848;
-    color: #484848;
-    padding: 0 5px;
-}
-
-.list .ico {
-    float: left;
-    width: 17px;
-    height: 17px;
-    background: url(../img/common.png)no-repeat -366px -785px;
-    margin: 34px 10px 0 0;
-}
-
-.list .link {
-    width: 680px;
-    float: left;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 18px;
-    color: #333;
-}
-
-.list .time {
-    float: right;
-    color: #6a6a6a;
-    font-size: 14px;
-    text-align: right;
-}
-
-.page {
-    width: 1000px;
-    height: 90px;
-    padding-top: 45px;
-    margin: auto;
+.news h1 {
+    font-size: 36px;
     text-align: center;
-    clear: both;
+    color: #000;
 }
 
-.page a {
-    display: inline-block;
-    width: 57px;
-    height: 56px;
-    background: url(../img/common.png) no-repeat 0 -835px;
-    margin: 0 40px;
+.news .sort {
+    display: block;
+    font-size: 18px;
+    line-height: 64px;
+    color: #818181;
+    border-bottom: 1px dotted #818181;
+    text-align: center;
+}
+
+.news .text {
+    color: #333;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 10px;
+}
+
+.news .text p {
+    padding: 10px 0;
 }
 
 .qrcode {
@@ -279,7 +219,7 @@
     width: 100%;
     background: url(../img/botbg.png);
     position: absolute;
-    bottom: -2120px;
+    bottom: -6200px;
 }
 
 .bottom-wrap {
